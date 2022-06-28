@@ -6,7 +6,7 @@ import React from 'react';
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return <>     
           <Head>
-            <title>My Top </title>
+            <title>My Top</title>
             <link key={1} rel="icon" href="/favicon2.ico" />
           </Head>
           <Component {...pageProps} />
